@@ -13,7 +13,7 @@ namespace ServiceStation.Web.Controllers
         public IActionResult Details() 
         {
             var service = new VehicleService() {
-                Id = 1,
+                Id = 76,
                 Title = "Test",
                 Description = "change the oil",
                 cost = 39.99m,
